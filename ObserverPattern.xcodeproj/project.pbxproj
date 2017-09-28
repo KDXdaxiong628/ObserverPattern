@@ -14,6 +14,8 @@
 		F617C5881F7CE0CB0082D52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F617C5871F7CE0CB0082D52E /* Assets.xcassets */; };
 		F617C58B1F7CE0CB0082D52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F617C5891F7CE0CB0082D52E /* LaunchScreen.storyboard */; };
 		F617C58E1F7CE0CB0082D52E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F617C58D1F7CE0CB0082D52E /* main.m */; };
+		F617C5961F7CE10A0082D52E /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F617C5951F7CE10A0082D52E /* SubscriptionServiceCenter.m */; };
+		F617C59B1F7CE9930082D52E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F617C59A1F7CE9930082D52E /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,11 @@
 		F617C58A1F7CE0CB0082D52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F617C58C1F7CE0CB0082D52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F617C58D1F7CE0CB0082D52E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F617C5941F7CE10A0082D52E /* SubscriptionServiceCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		F617C5951F7CE10A0082D52E /* SubscriptionServiceCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		F617C5981F7CE15B0082D52E /* SubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		F617C5991F7CE9930082D52E /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F617C59A1F7CE9930082D52E /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,11 @@
 				F617C57C1F7CE0CB0082D52E /* AppDelegate.m */,
 				F617C57E1F7CE0CB0082D52E /* ViewController.h */,
 				F617C57F1F7CE0CB0082D52E /* ViewController.m */,
+				F617C5941F7CE10A0082D52E /* SubscriptionServiceCenter.h */,
+				F617C5951F7CE10A0082D52E /* SubscriptionServiceCenter.m */,
+				F617C5981F7CE15B0082D52E /* SubscriptionServiceCenterProtocol.h */,
+				F617C5991F7CE9930082D52E /* Model.h */,
+				F617C59A1F7CE9930082D52E /* Model.m */,
 				F617C5811F7CE0CB0082D52E /* Main.storyboard */,
 				F617C5871F7CE0CB0082D52E /* Assets.xcassets */,
 				F617C5891F7CE0CB0082D52E /* LaunchScreen.storyboard */,
@@ -145,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F617C5961F7CE10A0082D52E /* SubscriptionServiceCenter.m in Sources */,
 				F617C5861F7CE0CB0082D52E /* ObserverPattern.xcdatamodeld in Sources */,
 				F617C5801F7CE0CB0082D52E /* ViewController.m in Sources */,
+				F617C59B1F7CE9930082D52E /* Model.m in Sources */,
 				F617C58E1F7CE0CB0082D52E /* main.m in Sources */,
 				F617C57D1F7CE0CB0082D52E /* AppDelegate.m in Sources */,
 			);
